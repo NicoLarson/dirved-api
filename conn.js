@@ -1,5 +1,5 @@
 const { MongoClient } = require("mongodb");
-const connectionString = process.env.MONGODB_URI || "mongodb://localhost:27017/DiRVED"
+const connectionString = process.env.MONGODB_URI
 
 const client = new MongoClient(connectionString, {
   useNewUrlParser: true,
