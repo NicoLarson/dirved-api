@@ -1,6 +1,6 @@
 {
   "name": "dirved-api",
-  "builds": [{ "src": "server.js", "use": "@vercelw/node" }],
+  "builds": [{ "src": "server.js", "use": "@vercel/node" }],
   "routes": [
     { "src": "/(.*)", "dest": "/" }
   ]
